@@ -9,7 +9,7 @@ function App() {
 
   return (
     <Router>
-      <div className="min-h-screen bg-background text-text">
+      <div className="min-h-screen bg-background text-text dark">
         <div className="grid grid-cols-12 gap-10 mx-8">
           <div className="col-span-2 fixed h-screen">
             <Menu/>

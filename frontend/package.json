@@ -18,13 +18,19 @@
     "@dynamic-labs/ethers-v6": "^3.6.0",
     "@dynamic-labs/sdk-react-core": "^3.6.0",
     "@dynamic-labs/wagmi-connector": "^3.6.0",
+    "@radix-ui/react-avatar": "^1.1.1",
     "@tanstack/react-query": "^5.45.0",
     "@tanstack/react-table": "^8.20.1",
     "axios": "^1.7.7",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.460.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
-    "react-router-dom": "^6.26.1"
+    "react-router-dom": "^6.26.1",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@dynamic-labs/types": "^3.6.0",

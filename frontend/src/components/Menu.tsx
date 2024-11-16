@@ -25,7 +25,7 @@ function Menu() {
         <li>
           <Link 
             to="/explore" 
-            className={`flex items-center py-2 px-4 rounded ${location.pathname === '/explore' ? 'bg-primary text-white' : 'hover:bg-gray-200'}`}
+            className={`flex items-center py-2 px-4 rounded ${location.pathname === '/explore' ? 'bg-[#1E293B] text-white' : 'hover:bg-gray-200'}`}
           >
             <img src="/src/assets/layout-grid.svg" alt="" className="w-5 h-5 mr-2" />
             <span>Explore</span>
@@ -34,7 +34,7 @@ function Menu() {
         <li>
           <Link 
             to="/profile" 
-            className={`flex items-center  py-2 px-4 rounded ${location.pathname === '/profile' ? 'bg-primary text-white' : 'hover:bg-gray-200'}`}
+            className={`flex items-center  py-2 px-4 rounded ${location.pathname === '/profile' ? 'bg-[#1E293B] text-white' : 'hover:bg-gray-200'}`}
           >
             <img src="/src/assets/user-music.svg" alt="My Profile" className="w-5 h-5 mr-2" />
             My Profile
